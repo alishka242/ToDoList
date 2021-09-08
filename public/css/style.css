@@ -1,0 +1,150 @@
+.container {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.styleForm {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.styleForm h1 {
+  color: white;
+  margin: 0;
+  padding-left: 18px;
+  background-color: #7C07A9;
+}
+
+form {
+  width: 350px;
+  height: 90px;
+  background: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form input {
+  width: 95%;
+  height: 50px;
+  float: left;
+  border-radius: 5px;
+  padding-left: 5px;
+  border: none;
+  background-color: gold;
+  font-weight: 600;
+  height: 40px;
+  color: #6e3983;
+  font-size: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+form input::placeholder {
+  color: #72587c;
+}
+
+form input:focus-visible {
+  outline: none;
+}
+
+form button {
+  border-radius: 5px;
+  border: none;
+  background-color: gold;
+  width: 130px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #7C07A9;
+  height: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+form button:hover {
+  background-color: #7C07A9;
+  color: white;
+  box-shadow: none;
+}
+
+ul {
+
+  padding: 0 0px !important;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+ul li p {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fcfcfc;
+  border: 1px solid silver;
+  border-radius: 5px;
+  width: 78%;
+}
+
+ul li p:hover {
+  background: #e5e5e5;
+}
+
+ul li button {
+  border: 0;
+  padding: 5px 15px;
+  color: white;
+  font-size: 13px;
+  background: #db5757;
+  position: relative;
+  left: 10px;
+  border-radius: 5px;
+  height: 56px;
+}
+
+ul li button:hover {
+  background: #a04141;
+}
+
+.taskListBoxShadow {
+  margin: 15px 0px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.taskList {
+  width: 350px;
+  padding: 10px;
+  background-color: gold;
+}
+
+.taskList div {
+  margin: 10px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.taskList div span {
+  
+  padding: 4px;
+}
+
+.taskListBoxShadow h1 {
+  color: white;
+  /* text-shadow:  2px 2px 3px black; */
+  margin: 0;
+  padding-left: 18px;
+  background-color: #7C07A9;
+}
