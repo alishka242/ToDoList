@@ -8,6 +8,6 @@
 <?php endforeach; ?>
 <? else : ?>
     <div>
-        <span>Задач пока что нет</span>
+        <span>Задач пока что нет :(</span>
     </div>
 <? endif; ?>
